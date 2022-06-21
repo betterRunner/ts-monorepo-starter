@@ -1,0 +1,33 @@
+{
+  "name": "@ts-monorepo-starter/demo",
+  "version": "0.1.1",
+  "author": "Jim Chan",
+  "description": "The demo package of `@ts-monorepo-starter`",
+  "license": "MIT",
+  "keywords": [
+    "ts-monorepo",
+    "typescript template",
+    "typescript starter",
+    "typescript monorepo"
+  ],
+  "bugs": {
+    "url": "https://github.com/betterRunner/ts-monorepo-starter/issues"
+  },
+  "homepage": "https://github.com/betterRunner/ts-monorepo-starter",
+  "main": "index.js",
+  "module": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "sideEffects": false,
+  "buildOptions": {
+    "formats": [
+      "cjs"
+    ]
+  },
+  "dependencies": {
+    "@ts-monorepo-starter/shared": "workspace:*"
+  }
+}
