@@ -31,11 +31,9 @@ pnpm run build
 ### tsconfig.json
 ```json
 {
-  // ...
   "paths": {
     "@ts-monorepo-starter/*": ["packages/*/src"],
   }
-  // ...
 }
 ```
 
