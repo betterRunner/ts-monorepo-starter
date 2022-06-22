@@ -39,7 +39,7 @@ pnpm run build
 }
 ```
 
-using `tsconfig.paths` to jump to the code definition of other local modules naturally without needing to build them
+Using `tsconfig.paths` to jump to the code definition of other local modules naturally without needing to build them firstly as usual.
 
 ## License
 
