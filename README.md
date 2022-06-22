@@ -4,10 +4,7 @@
 
 This project is a starter to build your own monorepo library with typescript. 
 
-Details:
-
-- jumping to the code definition naturally by `tsconfig.paths`
-- managed by [pnpm](https://pnpm.io/)
+- monorepo by [pnpm](https://pnpm.io/)
 - built by [rollup.js](https://rollupjs.org)
 - tested by [jest](https://jestjs.io)
 
@@ -28,6 +25,21 @@ pnpm run test
 ```bash
 pnpm run build
 ```
+
+## Details
+
+### tsconfig.json
+```json
+{
+  // ...
+  "paths": {
+    "@ts-monorepo-starter/*": ["packages/*/src"],
+  }
+  // ...
+}
+```
+
+using `tsconfig.paths` to jump to the code definition of other local modules naturally without needing to build them
 
 ## License
 
