@@ -6,6 +6,7 @@ This project is a starter to build your own monorepo library with typescript.
 
 Details:
 
+- jumping to the code definition naturally by `tsconfig.paths`
 - managed by [pnpm](https://pnpm.io/)
 - built by [rollup.js](https://rollupjs.org)
 - tested by [jest](https://jestjs.io)
