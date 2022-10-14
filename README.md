@@ -4,9 +4,9 @@
 
 This project is a starter to build your own monorepo library with typescript. 
 
-- monorepo by [pnpm](https://pnpm.io/)
-- built by [rollup.js](https://rollupjs.org)
-- tested by [jest](https://jestjs.io)
+- monorepo with [pnpm](https://pnpm.io/)
+- building with [rollup.js](https://rollupjs.org)
+- testing with [jest](https://jestjs.io)
 
 ## Getting Started
 
